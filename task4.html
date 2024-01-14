@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles4.css">
+    <title>Your Portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="profile_picture.jpg" alt="Your Profile Picture">
+            <h1>Harishma GV</h1>
+            <p>Web Developer</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#skills-section">Skills</a></li>
+            <li><a href="#projects-container">Projects</a></li>
+            <li><a href="#contact-form">Contact</a></li>
+            <li><a href="#blog-section">Blog</a></li>
+            <li><a href="#resume-section">Resume</a></li>
+        </ul>
+    </nav>
+
+    <section class="about-me" id="about-me">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Studying at Nehru Institute of Engineering and Technology. Persuing Computer Science and Engineering</p>
+        </div>
+    </section>
+
+    <section class="skills" id="skills-section">
+        <div class="container">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>C++</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </div>
+    </section>
+
+    <section class="projects" id="projects-container">
+        <div class="container">
+            <h2>Projects</h2>
+            <!-- Add your project content here -->
+        </div>
+    </section>
+
+    <section class="blog" id="blog-section">
+        <div class="container">
+            <h2>Blog</h2>
+            <h2>Hai Welcome to my blog</h2>
+        </div>
+    </section>
+
+    <section class="resume" id="resume-section">
+        <div class="container">
+            <h2>Resume</h2>
+            <h2>This is my resume</h2>
+        </div>
+    </section>
+
+    <section class="contact" id="contact-form">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <!-- Display thank you message here -->
+            <div id="thank-you-message"></div>
+        </div>
+    </section>
+
+    <script src="script4.js"></script>
+</body>
+</html>
